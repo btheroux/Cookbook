@@ -1,4 +1,5 @@
-require_relative 'cookbook'
+require_relative 'recipe'
+require_relative 'view'
 # controller
 class Controller
   def initialize(cookbook)

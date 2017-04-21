@@ -1,27 +1,21 @@
 # view
 class View
-
-
-
-
   # INPUT
-  # Add one recipe
-  # Delete one recipe
-  # Exit program
-
-
-#create
-
-# def ask_recipe_name
-#  puts "What is the name of your new recipe?"
-#  print ">"
-#  return = gets.chomp
-# end
-
   def define_description
     puts "Insert description"
     print ">"
   return = gets.chomp
+  end
+
+  def specify_index
+    puts "specify index"
+    print ">"
+    return gets.chomp
+  end
+
+  def specify_destroy
+    puts "Which recipe number would you like to delete?"
+    specify_index
   end
 
 
