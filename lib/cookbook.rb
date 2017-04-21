@@ -1,5 +1,4 @@
 # repository
-require
 class Cookbook
   def initialize(csv_file_path)
     @repo = []

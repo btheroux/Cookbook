@@ -4,7 +4,13 @@ class View
   def define_description
     puts "Insert description"
     print ">"
-  return = gets.chomp
+  return gets.chomp
+  end
+
+  def define_name
+    puts "Insert name"
+    print ">"
+  return gets.chomp
   end
 
   def specify_index
@@ -23,5 +29,6 @@ class View
   def display(repo)
   repo.each_with_index do |recipe, index|
     puts "#{index+1}: #{recipe} "
+    end
   end
 end
